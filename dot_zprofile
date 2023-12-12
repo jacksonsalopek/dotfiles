@@ -1,0 +1,7 @@
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
+
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
