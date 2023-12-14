@@ -26,15 +26,11 @@ alias python3='python3.9'
 alias r="source ~/.zshrc"
 alias c='clear'
 alias x='exit'
-alias s='find ./ -type f | xargs grep -Hn'
 
 alias bu='bun upgrade'
 alias bru='brew update && brew upgrade && brew cleanup'
 
-# Maven aliases
-alias mcv='mvn clean verify'
-alias mci='mvn clean install'
-alias mcsvt='mvn clean verify -DskipTests'
-alias mt='mvn test'
-alias mvnv='mvn verify'
+alias sc='sbt compile'
+alias scr='sbt compile run'
+alias sr='sbt run'
 
