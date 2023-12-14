@@ -12,6 +12,7 @@ return {
           end,
         },
         biome = {},
+        kotlin_language_server = {},
         -- other language servers
       },
     },
